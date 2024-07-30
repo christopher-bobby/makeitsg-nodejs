@@ -1,0 +1,31 @@
+{
+  "name": "api.makeitsg.com",
+  "version": "1.0.0",
+  "description": "api for makeitsg.com",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "jest"
+  },
+  "author": "ivan iddo",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "helmet": "^7.1.0",
+    "joi": "^17.13.1",
+    "jsonwebtoken": "^9.0.2",
+    "mariadb": "^3.3.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.10.1",
+    "nodemon": "^3.1.2",
+    "pg": "^8.12.0",
+    "postgres": "^3.4.4",
+    "sequelize": "^6.37.3"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  }
+}
